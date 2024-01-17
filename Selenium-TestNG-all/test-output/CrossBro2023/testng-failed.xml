@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CrossBro2023]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="CrossBrow2023(failed)">
+    <parameter name="browser" value="browsers"/>
+    <classes>
+      <class name="crossBrowserTesting.Test1">
+        <methods>
+          <include name="init"/>
+          <include name="test2023New"/>
+        </methods>
+      </class> <!-- crossBrowserTesting.Test1 -->
+    </classes>
+  </test> <!-- CrossBrow2023(failed) -->
+</suite> <!-- Failed suite [CrossBro2023] -->
